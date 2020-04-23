@@ -13,7 +13,7 @@ namespace EmreDotnetTest
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Main thread id: " + System.Threading.Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("Main thread ids: " + System.Threading.Thread.CurrentThread.ManagedThreadId);
 
             CallAsync();
 

@@ -42,6 +42,7 @@ namespace EmreDotnetTest
 
         private static void ProduceException()
         {
+            //TODO emre1
             throw new Exception("Hata var....");
         }
 

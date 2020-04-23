@@ -15,7 +15,7 @@ namespace EmreDotnetTest
         static void Main(string[] args)
         {
             Console.WriteLine("Main thread idsler: " + System.Threading.Thread.CurrentThread.ManagedThreadId);
-
+            // Main
             CallAsync();
 
             Console.ReadLine();

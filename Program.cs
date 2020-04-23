@@ -8,6 +8,7 @@ namespace EmreDotnetTest
     {
         static Program()
         {
+            //TODO app emre  domain changed.
             AppDomain.CurrentDomain.UnhandledException += UnhandledException;
         }
 

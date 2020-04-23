@@ -42,7 +42,7 @@ namespace EmreDotnetTest
 
         private static void ProduceException()
         {
-            throw new Exception("Hata var..");
+            throw new Exception("Hata var....");
         }
 
         static int CallMethod()

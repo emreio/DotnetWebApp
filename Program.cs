@@ -60,6 +60,7 @@ namespace EmreDotnetTest
             finally
             {
                 Console.WriteLine("finally");
+                //TODO emre
             }
         }
     }

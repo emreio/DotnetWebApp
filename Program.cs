@@ -46,6 +46,11 @@ namespace EmreDotnetTest
             throw new Exception("Hata var....");
         }
 
+        private static void FeatureFunc()
+        {
+
+        }
+
         static int CallMethod()
         {
             try

@@ -5,6 +5,7 @@ namespace EmreDotnetTest
 {
     public class A
     {
+		//Comments
         protected virtual void M1() { }
         void M2() { }
     }

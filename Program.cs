@@ -8,13 +8,14 @@ namespace EmreDotnetTest
     {
         static Program()
         {
+            //TODO app emre  domain changed.
             AppDomain.CurrentDomain.UnhandledException += UnhandledException;
         }
 
         static void Main(string[] args)
         {
             Console.WriteLine("Main thread idsler: " + System.Threading.Thread.CurrentThread.ManagedThreadId);
-
+            // Main
             CallAsync();
 
             Console.ReadLine();
@@ -60,6 +61,7 @@ namespace EmreDotnetTest
             finally
             {
                 Console.WriteLine("finally");
+                //TODO emres
             }
         }
     }

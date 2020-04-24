@@ -9,6 +9,7 @@ namespace EmreDotnetTest
         void M2() { }
     }
 
+	//some comment
     public class B : A
     {
         override M1() { }
